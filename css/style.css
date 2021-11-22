@@ -18,9 +18,22 @@ section, header, footer {
       Width: 80%;
       max-width: 700px;
       margin: auto;
+      padding: 0;
+}
+
+section {
+  margin-bottom: 4rem
+}
+
+.dark {background: #760071}
+
+.light {
+  background: #FFE9C4
+  padding: 3rem
 }
 
    /*--styling typography--*/
+
    h1, h2, blockquote {
              color: #760071;
    }
@@ -41,9 +54,20 @@ h2 {
   margin: 3em 0 1em 0;
 }
 
+h1, h2 {
+  color: #760071;
+}
+
+p {
+  color: #333;
+  padding: 1em 0;
+  line-height: 1.4;
+}
+
 blockquote {
   font-size: 1.414rem;
   font-style: italic;
+  color: #760071;
   hanging-punctuation: first;
   text-indent: -0.75rem
 }
@@ -62,6 +86,7 @@ header h2 {
 }
 
 header p {
+  padding-bottom: 4rem;
   font-size: 1.3rem
 }
 
