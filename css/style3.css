@@ -18,7 +18,7 @@ body {
 section, header, footer {
       Width: 80%;
       max-width: 700px;
-      margin: auto;
+      margin: auto; 
       padding: 0;
 }
 
@@ -33,6 +33,12 @@ padding: 2em 0}
 .light {
   background: #FFE9C4;
   padding: 3rem
+}
+
+.gridimage {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 }
 
    /*--styling typography--*/
